@@ -1,3 +1,17 @@
+#title{
+font-family: "cooper black", TimesNewRoman;
+ font-size: 250%;
+color: white;
+text-align: center;
+}
+
+#text{
+font-family: "arial", TimesNewRoman;
+ font-size: 125%;
+color: white;
+text-align: center;
+}
+
 #regtext{
 color: #ffffff;
 font-size: 120%;
@@ -31,6 +45,11 @@ footer{
     height:70px;
     width:100%;
 	color: white;
+}
+
+body{
+background-repeat: no-repeat;
+background-size:cover;
 }
 
 #Logo{
