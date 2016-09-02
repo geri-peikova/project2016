@@ -1,3 +1,36 @@
+<?php
+
+	require_once('PHP/connection2.php');
+
+	
+	if (isset($_POST['Submit']))
+	{
+		if (empty($_POST['title']))
+		{
+			
+		}
+
+		if (empty($_POST['text']))
+		{
+
+		}
+
+
+
+		$title = mysql_real_escape_string($_POST['title']);
+		$text = mysql_real_escape_string($_POST['text']);
+
+		mysql_query("INSERT INTO make (title, text) 
+			VALUES ('$title', '$text')");
+	
+		session_start();
+		
+		header("Location: New.php");
+
+	}
+	
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -70,8 +103,12 @@
 
 
 <article>
+<form action = "Make.php" method = "POST">
 
-</article>
+			<input type = "Text" name = "title" placeholder = "Заглавие"><br><br>		
+			<textarea rows="4" cols="50" name = "text" placeholder = "Въведи текст..."></textarea><br><br>		
+            <input type = "Submit" Name = "Submit" value = "Създай">
+			</article>
 
 <footer style="text-align:left">
 
