@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<title>Създай</title>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type = "text/css" href="CSS/blog.css">
+	<link href="Logo.png" rel="shortcut icon" type="image/x-icon">
+	
+	<script src="JS/Blog.js"></script>
+	<script src="JS/jquery-3.1.0.min.js"></script>
+	
+	<meta charset="UTF-8">
+	
+	<style type="text/css"></style>
+</head> 
+
+<body background="Background.jpg" onload="Show(); setTimeout(Map, 1000);">
+
+<header>
+    <div id="logout">
+		<div id = "Logo" ><a target="_self" href="Blog.html"><img src = "logo.png" height=100px; width=180px;></a></div>
+		<div id = "Login" ><a href="REG.html" ><b>Вход/Регистрация</b></a></div>
+		<div>
+		    <a id = "Gallery" href = "Gallery.html"><b>ГАЛЕРИЯ</b></a>
+			<a id = "New" href = "New.html"><b>НОВИ</b></a>
+			<a id = "Blog" href = "Blog.html"><b>БЛОГ</b></a>
+		</div>
+	</div>
+
+
+ <div id="logged">
+		<div id = "Logo" ><a target="_self" href="Blog.html"><img src = "logo.png" height=100px; width=180px;></a></div>
+		<div id = "Login" ><a href="REG.html" ><b>Вход/Регистрация</b></a></div>
+		<div>
+		    <a id = "Make" href = "Make.html"><b>СЪЗДАЙ</b></a>
+		    <a id = "Gallery" href = "Gallery.html"><b>ГАЛЕРИЯ</b></a>
+			<a id = "New" href = "New.html"><b>НОВИ</b></a>
+			<a id = "Blog" href = "Blog.html"><b>БЛОГ</b></a>
+		</div>
+	</div>
+</header>
+
+
+
+<main>
+
+
+<article>
+
+</article>
+
+<footer style="text-align:left">
+
+<br>&emsp;&emsp;&emsp;&emsp;	&copy <b>Copyright ______ Team 2016</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="Contact.html" style="color:white;"><b>*  Контакти  *</b></a>
+
+</footer>
+
+<script>
+	function Map() {
+  
+      document.getElementById('map').style.display='inline';
+
+	}
+
+	function Show() {
+	document.getElementById("logout").style.display = "inline";		
+	document.getElementById("logged").style.display = "none";
+	}
+
+	function Hide() {
+	document.getElementById("logout").style.display = "none";		
+	document.getElementById("logged").style.display = "inline";
+	}
+</script>
+</main>
+
+</body>
+</html>
