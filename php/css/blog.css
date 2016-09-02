@@ -1,0 +1,129 @@
+#regtext{
+color: #ffffff;
+font-size: 120%;
+}
+
+#map {
+    position: absolute;
+    margin: auto;
+    top: 100;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+    background-color:#ffffff;
+    height:110px;
+    width:100%;
+}
+
+article{
+    background-color:#623456;
+	min-height: 600px;
+	background: rgba(98, 52, 86, 0.6);
+    height:auto;
+    width:100%;
+}
+
+footer{
+	background-color:#292929;
+    height:70px;
+    width:100%;
+	color: white;
+}
+
+#Logo{
+     margin-left:5%;
+     display: block;
+	 width: 25%;
+	 float:left;
+}
+
+#Login{
+     margin-top:1%;
+     margin-right:6%;
+     width: 10%;
+	 float:right;
+}
+
+#Blog{
+	 width: 5%;
+	 float:right;
+	 height: 10%;
+	 margin-top:6%;
+	 margin-right:6%;
+}
+
+#New{
+	 width: 5%;
+	 float:right;
+	 height: 10%;
+	 margin-top:6%;
+	 margin-right:6%;
+
+}
+
+#Gallery{
+	 width: 5%;
+	 float:right;
+	 height: 10%;
+	 margin-top:6%;
+	 margin-right:6%;
+}
+
+#Make{
+	 width: 5%;
+	 float:right;
+	 height: 10%;
+	 margin-top:6%;
+	 margin-right:6%;
+}
+
+
+
+#logout{
+ background-color:#ffffff;
+ height:12%;
+ width:80% ;
+ float: none;
+ display: none;
+}
+
+#logged{
+ display: none;
+ background-color:#ffffff;
+ height:12%;
+ width:80% ;
+ float: none;
+}
+ 
+ #login{
+ margin-left:50px;
+  display: inline ;
+ } 
+ 
+  #Buttons{
+ margin-left:20px;
+ } 
+ 
+ 
+ #Error {
+ background: #AAA;
+ padding: 5px 10px;
+ border-radius : 3px;
+ width: 100%;
+ margin: 20px;
+ text-align: center;
+ }
+
+ #form1{
+ size:200px;
+  color:black;
+ }
+ 
+
+form {
+    float:right;
+	padding-top: 1.5%;
+}
