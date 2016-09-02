@@ -256,7 +256,7 @@
 	
 			</select><br><br>
 			
-			<input type = "Submit" Name = "Submit" value = "Register">
+			<input type = "Submit" Name = "Submit" value = "Регистрирай ме">
 
 		</form>
 </article>

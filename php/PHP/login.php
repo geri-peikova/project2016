@@ -77,7 +77,7 @@
 
 			<input type = "Email" name = 'email' placeholder = "Email"><br><br>
 			<input type = "Password" name = 'password' placeholder = "Password"><br><br>
-			<input type = "Submit" value = 'Login'>
+			<input type = "Submit" value = 'Влез'>
 		
 		</form>
 </article>	
